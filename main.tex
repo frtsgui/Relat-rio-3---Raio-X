@@ -260,32 +260,36 @@ Os erros relativos são então
 $$E_d=\frac{|2,015-2,00|}{2,015}=0,7\%$$
 $$E_{a0}=\frac{|4,03-4,01|}{4,03}=0,5\%$$
 
-\subsection{Filtros}
+\subsection{Análise de filtros}
+
+Abaixo são exibidos os três difratogramas de LiF utilizando filtros de cobre, níquel ou a ausência de filtro, apresentados nas figuras \ref{fig:filtrocu}, \ref{fig:filtroni} e \ref{fig:semfiltro} respectivamente.
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{Figuras/FiltroCu.png}
-    \caption{Caption}
-    \label{fig:my_label}
+    \caption{Difratograma para o filtro de cobre.}
+    \label{fig:filtrocu}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{Figuras/FiltroNi.png}
-    \caption{Caption}
-    \label{fig:my_label}
+    \caption{Difratograma para o filtro de Ni.}
+    \label{fig:filtroni}
 \end{figure}
-
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{Figuras/Semfiltro.png}
-    \caption{Caption}
-    \label{fig:my_label}
+    \caption{Difratograma para o caso sem filtro.}
+    \label{fig:semfiltro}
 \end{figure}
+
+Com a localização dos picos obtidas e apresentadas na tabela \ref{tab:filtrotheta}, foi possível chegar aos coeficientes apresentados na tabela \ref{tab:filtror}.
 
 \begin{table}[H]
     \centering
+    \caption{Dados coletados de $\theta$ para cada tipo de filtro e radiação incidente.}
     \begin{tabular}{|c|c|c|}
         \hline
         Filtro & Radiação & $\theta(^o)$ \\ \hline
@@ -295,21 +299,20 @@ $$E_{a0}=\frac{|4,03-4,01|}{4,03}=0,5\%$$
         Sem filtro & $K_\alpha$ & $22,64\pm0,11$ \\ \hline
         Sem filtro & $K_\beta$ & $20,35\pm0,12$ \\ \hline
     \end{tabular}
-    \caption{Com filtro - Cu}
-    \label{tab:my_label4}
+    \label{tab:filtrotheta}
 \end{table}
 
 \begin{table}[H]
     \centering
+    \caption{Caption}
     \begin{tabular}{|c|c|c|c|c|}
     \hline
          & $R(K_\alpha)$ & $R(K_\beta)$ & $V_0$ & $V$ \\ \hline
-        Sem filtro & 2413,8 & 885,6 & 0,36689038 & 0,268412439 \\ \hline
-        Filtro de Cu & 146,2 & 76,8 & 0,525307798 & 0,344394619 \\ \hline
-        Filtro de Ni & 1.182 & 0 & 0 & 0 \\ \hline 
+        Sem filtro & 2413,8 & 885,6 & 0,37 & 0,27 \\ \hline
+        Filtro de Cu & 146,2 & 76,8 & 0,53 & 0,34 \\ \hline
+        Filtro de Ni & 1182 & 0 & 0 & 0 \\ \hline 
     \end{tabular}
-    \caption{Caption}
-    \label{tab:my_label}
+    \label{tab:filtror}
 \end{table}
 
 \subsection{exp 2}
@@ -318,22 +321,25 @@ $$E_{a0}=\frac{|4,03-4,01|}{4,03}=0,5\%$$
     \centering
     \begin{tabular}{|c|c|c|c|}
         \hline
-        10kV & $\theta$ $[K_\alpha]$ $(^o)$ & $22,53\pm0,10$ & 1.544\\ \hline
-        10kV & $\theta$ $[K_\beta]$ $(^o)$ & $20,26\pm0,11$ & 1.396\\ \hline
-        15kV & $\theta$ $[K_\alpha]$ $(^o)$ & $22,53\pm0,10$ & 1.544\\ \hline
-        15kV & $\theta$ $[K_\beta]$ $(^o)$ & $20,26\pm0,10$ & 1.396\\ \hline
-        20kV & $\theta$ $[K_\alpha]$ $(^o)$ & $22,53\pm0,10$ & 1.544\\ \hline
-        20kV & $\theta$ $[K_\beta]$ $(^o)$ & $20,25\pm0,10$ & 1.395\\ \hline
-        25kV & $\theta$ $[K_\alpha]$ $(^o)$ & $22,54\pm0,11$ & 1.545\\ \hline
-        25kV & $\theta$ $[K_\beta]$ $(^o)$ & $20,26\pm0,11$ & 1.396\\ \hline
-        30kV & $\theta$ $[K_\alpha]$ $(^o)$ & $22,54\pm0,11$ & 1.545\\ \hline
-        30kV & $\theta$ $[K_\beta]$ $(^o)$ & $20,26\pm0,10$ & 1.396\\ \hline
+        Tensão & Radiação & $\theta$ $(^o)$ & $\lambda$ (\r{A}) \\ \hline
+        10kV & $K_\alpha$ & $22,53\pm0,10$ & 1.544\\ \hline
+        10kV & $K_\beta$ & $20,26\pm0,11$ & 1.396\\ \hline
+        15kV & $K_\alpha$ & $22,53\pm0,10$ & 1.544\\ \hline
+        15kV & $K_\beta$ & $20,26\pm0,10$ & 1.396\\ \hline
+        20kV & $K_\alpha$ & $22,53\pm0,10$ & 1.544\\ \hline
+        20kV & $K_\beta$ & $20,25\pm0,10$ & 1.395\\ \hline
+        25kV & $K_\alpha$ & $22,54\pm0,11$ & 1.545\\ \hline
+        25kV & $K_\beta$ & $20,26\pm0,11$ & 1.396\\ \hline
+        30kV & $K_\alpha$ & $22,54\pm0,11$ & 1.545\\ \hline
+        30kV & $K_\beta$ & $20,26\pm0,10$ & 1.396\\ \hline
     \end{tabular}
     \caption{LiF}
     \label{tab:my_label7}
 \end{table}
 
 \section{Conclusão}
+
+Conclui-se que o presente experimento pode-se ser dividido em duas partes. Na primeira, analisou-se a lei da reflexão de Bragg do cristal KBr, na qual utilizou-se a radiação de cobre e obtemos os resultados da tabela 1. A partir desses valores, do espaçamento da rede e dos coeficientes angulares obtidos dos gráficos das figuras 6 e 7 determina-se os comprimentos de onda de K$_\alpha$ e K$_\beta$. Pode-se observar, que os resultados obtidos estão de acordo com a teoria dados pelos respectivos erros relativos 0,01\% e 0,03\%. Continuando, analisou-se o parâmetro de rede a partir da lei de Bragg do cristal LiF como mostra a tabela 3, no qual observa-se que os resultados estão condizentes a partir dos baixos erros relativos do parâmetro de rede e da distância interplanar do cristal, sendo respectivamente 0,5\% e 0,7\%. Ainda para o cristal LiF buscou-se analisar como se dava a reflexão dos raios com a presença dos filtros de cobre e de níquel. Observou-se que a presença do filtro de cobre não interferia na emissão das linhas de radiação K$_\alpha$ e K$_\beta$, entretanto, para o filtro de níquel só emite a radiação de K$_\alpha$, assim, inibindo K$_\beta$ como mostra a tabela 4, no qual resume as figuras 9, 10 e 11. Assim, a partir da tabela 4 obteve-se os coeficientes da tabela 5. Na segunda,    
 
 \appendix
 

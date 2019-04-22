@@ -1,0 +1,23 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{section.0.1}
+\contentsline {section}{\numberline {2}Metodologia}{3}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}Lista de materiais}{3}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {2.2}Montagem experimental}{3}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {2.3}Procedimento experimental}{4}{subsection.0.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1} Lei da Reflex\IeC {\~a}o de Bragg num monocristal de \textit {KBr} utilizando a radia\IeC {\c c}\IeC {\~a}o caracter\IeC {\'\i }stica do \textit {Cu} }{5}{subsubsection.0.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}C\IeC {\'a}lculo do par\IeC {\^a}metro de rede do cristal \textit {LiF}}{5}{subsubsection.0.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}An\IeC {\'a}lise da borda de absor\IeC {\c c}\IeC {\~a}o de \textit {Ni} e \textit {Cu}}{5}{subsubsection.0.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}An\IeC {\'a}lise do espectro de energia de um tubo de Raios X em fun\IeC {\c c}\IeC {\~a}o da tens\IeC {\~a}o aplicada}{5}{subsubsection.0.2.3.4}
+\contentsline {section}{\numberline {3}Resultados e an\IeC {\'a}lise de dados}{6}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Comprimento de onda dos raios X de cobre}{6}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {3.2}Par\IeC {\^a}metro de rede do cristal de LiF}{8}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {3.3}An\IeC {\'a}lise de filtros}{9}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {3.4}exp 2}{11}{subsection.0.3.4}
+\contentsline {section}{\numberline {4}Conclus\IeC {\~a}o}{11}{section.0.4}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{13}{section*.20}
+\contentsline {section}{\numberline {1}Demonstra\IeC {\c c}\IeC {\~o}es}{13}{section.Alph0.1}
+\contentsline {section}{\numberline {2}Propaga\IeC {\c c}\IeC {\~a}o de incertezas}{13}{section.Alph0.2}
+\contentsline {subsection}{\numberline {2.1}Dist\IeC {\^a}ncia d entre planos cristalinos}{13}{subsection.Alph0.2.1}

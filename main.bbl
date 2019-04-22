@@ -1,0 +1,27 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem{french1971vibrations}
+\abntrefinfo{French}{FRENCH}{1971}
+{FRENCH, A.~P. \emph{Vibrations and waves}. [S.l.]: CRC press, 1971.}
+
+\bibitem{alexander2013fundamentos}
+\abntrefinfo{Alexander e Sadiku}{ALEXANDER; SADIKU}{2013}
+{ALEXANDER, C.~K.; SADIKU, M.~N. \emph{Fundamentos de circuitos elétricos
+  (5a)}. [S.l.]: McGraw Hill Mexico, 2013.}
+
+\bibitem{tilley2014cristalografia}
+\abntrefinfo{Tilley}{TILLEY}{2014}
+{TILLEY, R. J.~D. \emph{Cristalografia, Cristais e Estruturas Cristalinas}.
+  [S.l.]: Tradução: Fábio RD de Andrade, 2014.}
+
+\bibitem{cullity1967elements}
+\abntrefinfo{Cullity}{CULLITY}{1967}
+{CULLITY, B.~D. \emph{Elements of X-ray diffraction}. [S.l.]: Addison-Wesley,
+  1967.}
+
+\end{thebibliography}
